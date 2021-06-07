@@ -1,10 +1,13 @@
+import React from "react";
+import Directory from "./components/Directory.js";
+import "./App.css";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <Directory />
     </div>
   );
-}
+};
 
 export default App;
